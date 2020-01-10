@@ -36,5 +36,13 @@ module.exports = {
     await Sentences.create({ sentence: req.param('sentence') });
     return res.redirect('/say');
   },
-};
 
+  admin: async function(req, res) {
+    return res.view('admin');
+  },
+
+  send: async function(req, res) {
+    //@TODO send
+    return res.redirect('/say');
+  },
+};
