@@ -34,3 +34,6 @@ terminal `docker restart web` and wait for the migrations to be executed.
 ### Resources
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
+
+
+[![Build Status](https://travis-ci.org/<github username>/<repo name>.svg?branch=master)](https://travis-ci.org/<github username>/<repo name>)
